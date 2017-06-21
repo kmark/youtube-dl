@@ -242,6 +242,7 @@ def _real_main(argv=None):
 
     # PostProcessors
     postprocessors = []
+    postprocessors.append({'key': 'Test'})
     if opts.metafromtitle:
         postprocessors.append({
             'key': 'MetadataFromTitle',
